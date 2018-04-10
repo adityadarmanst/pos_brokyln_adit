@@ -69,10 +69,10 @@ class superAdminController extends Controller
     return view('master/riwayatTransaksiSuperAdmin',['tampilRiwayatTransaksi' => $tampilRiwayatTransaksi]);
   }
 
-  //public function testMasukanForm()
-  //{
-    //return view('master/formTes');
-  //}
+  public function testMasukanForm()
+  {
+    return view('master/formTes');
+  }
 
  // public function proMasukanTest(Request $request)
    // {
