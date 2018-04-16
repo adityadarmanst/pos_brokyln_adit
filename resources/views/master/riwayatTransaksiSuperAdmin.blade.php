@@ -27,8 +27,8 @@
     <th>{{$rt -> id_cabang}}</th>
     <th>Rp. {{number_format($rt -> total_harga)}}</th>
     <th>
-    	<button class="btn btn-sm btn-success btnDetails" id='{{$rt -> no_faktur}}'><i class='fa fa fa-pencil-square-o'></i></button>
-    	<a href="{{ url('/cetakStruk/aaa') }}" target="new"><button class="btn btn-sm btn-success btnDetails" id='{{$rt -> no_faktur}}'><i class='fa fa-print'></i></button></a>
+    	<button class="btn btn-sm btn-success btnDetails" id='{{$rt -> no_faktur}}'><i class='fa fa fa-pencil-square-o'></i>&nbsp; Details</button>
+    	<a href="{{ url('/cetakStruk/aaa') }}" target="new"><button class="btn btn-sm btn-success btnDetails" id='{{$rt -> no_faktur}}'><i class='fa fa-print'></i>&nbsp; Cetak</button></a>
     </th>
   </tr>
 	@php
